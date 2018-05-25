@@ -1,0 +1,35 @@
+{
+  "name": "botframework-skype-calling-example-bot",
+  "version": "1.0.0",
+  "description": "skype calling bot example for Bot Framework Node SDK",
+  "main": "app.js",
+  "engines": {
+    "node": "6.10.2",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwhitmont/botframework-skype-calling-example-bot.git"
+  },
+  "keywords": [
+    "botframework",
+    "skype",
+    "calling",
+    "nodejs",
+    "botbuilder"
+  ],
+  "author": "Nils Whitmont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwhitmont/botframework-skype-calling-example-bot/issues"
+  },
+  "homepage": "https://github.com/nwhitmont/botframework-skype-calling-example-bot#readme",
+  "dependencies": {
+    "botbuilder": "^3.8.3",
+    "botbuilder-calling": "^3.0.1",
+    "restify": "^4.3.0"
+  }
+}
